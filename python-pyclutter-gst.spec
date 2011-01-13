@@ -84,7 +84,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{py_sitedir}/cluttergst
 %attr(755,root,root) %{py_sitedir}/cluttergst/_cluttergst.so
 %{py_sitedir}/cluttergst/*.py[co]
-%{_datadir}/pyclutter
 
 %files devel
 %defattr(644,root,root,755)
